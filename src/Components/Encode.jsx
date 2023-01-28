@@ -19,7 +19,7 @@ function Encode() {
   return (
     <div className='flex flex-col bg-blue-400'>
         <p className='text-4xl'>Encode Screen</p>
-        <input className="m-4" type="file" accept="image/*" onChange={onImageChange}/>
+        <input className="m-4 w-1/4" type="file" accept="image/*" onChange={onImageChange}/>
         <input className="w-1/4 m-4" type="text" onChange={onTextInput}/>
         <p className='mx-4'>{walletkeys}</p>
         <div className="bg-black w-2/12 rounded-md flex justify-center mx-4">
